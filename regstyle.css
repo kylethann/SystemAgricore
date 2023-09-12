@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* opacity: 0.2; */
+}
+
+body {
+  position: center;
+  width: 100%;
+  min-height: 100vh;
+  /* background-image: linear-gradient(rgba(184, 148, 148, 0), rgba(0, 0, 0, 0)); */
+  /* background-blend-mode: darken; */
+  /* opacity: 0.2; */
+  /* background: transparent; */
+  background-image: url("Admin/images/i7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: 1000px 1000px; */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 40px 30px;
+  align-items: center;
+}
+
+.container {
+  position: center;
+  width: 900px;
+  height: 850px;
+  font: 700 13px Helvetica, Arial;
+  /* background: rgb(160, 206, 81); */
+  /* background-image: url("/Client/images/bg1.jpg"); */
+  background-color: rgba(209, 194, 154, 0.664);
+  background-image: url("Admin/images/bg5.jpg");
+  /* opacity: 0.2; */
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: 900px 100px;
+  /* background-size: contain; */
+  border-color: rgba(209, 194, 154, 0.664);
+  border-style: solid;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+  padding: 25px 15px;
+}
+
+/* .image {
+  margin-right: 100px;
+} */
+
+.container .login-text {
+  color: beige;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  padding: 5px;
+  padding-top: 10px;
+  /* font-size: 1.2rem; */
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  display: block;
+  /* text-transform: capitalize; */
+}
+
+.container .login-email .input-group {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 13px;
+}
+
+/* email and pass input */
+.container .login-email .input-group input {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #010501;
+  color: black;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border-radius: 15px;
+  background: transparent;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* email and pass btn when click  */
+.container .login-email .input-group input:focus,
+.container .login-email .input-group input:valid {
+  border-color: #1a7800;
+}
+
+/* email and pass btn */
+.container .login-email .input-group .btn {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  color: rgb(235, 64, 64);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* login button when hover */
+.container .login-email .input-group .btn:hover {
+  transform: translateY(-5px);
+  color: rgb(110, 7, 7);
+  background: #ccdc20;
+  /* border-radius:  */
+}
+/* 
+@media screen and (max-width: 48rem) {
+  * {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+} */

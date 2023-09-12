@@ -1,0 +1,9 @@
+
+  .card-body{
+  font: 700 16px Times New Roman, Helvetica, Arial;
+  text-align: center;
+  outline: none; 
+  }
+  .card{
+  cursor: pointer; 
+  }
