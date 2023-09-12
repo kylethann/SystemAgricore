@@ -318,7 +318,7 @@ $res = $statement->fetch(PDO::FETCH_OBJ);
 <script>
 
 $(document).ready(function(){
-
+  
 	var $modal = $('#modal');
   var $profileModal = $('#profileModal')
 	var image = document.getElementById('sample_image');
